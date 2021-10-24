@@ -112,7 +112,21 @@ brookings_colors <-
     purple_10 ='#E9E0FC',
 
     # Grey
-    `PMS 427 C` = "#D0D3D4"
+    grey_10 = "#D0D3D4",
+
+    # THP Palette
+    THP_turquoise ='#007363',
+    THP_ltgreen ='#A5D867',
+    THP_dkblue ='#006983',
+    THP_dkgreen ='#427730',
+    THP_purple ='#6E2585',
+    THP_grey ='#FC7F92',
+    THP_ltblue ='#00ADD0',
+    THP_green ='#69BE28',
+    THP_orange ='#FF6E00',
+    THP_yellow ='#FFB612',
+
+    extra_ltpurple = '#C957BC'
   )
 
 #' Function to extract brookings colors as hex codes
@@ -134,7 +148,7 @@ brookings_palettes <- list(
   # BRAND COLORS
   # Use colors from the brand palette whenever possible.
   brand1 = brookings_cols("brookings blue", "vivid_blue_20", "orange_40"),
-  brand2 = brookings_cols("brookings blue","orange_40", "PMS 427 C"),
+  brand2 = brookings_cols("brookings blue","orange_40", "grey_10"),
   # Analogous
   #Different shades of the same hue, or of similar hues can be used when the associated
   #values are related
@@ -177,7 +191,16 @@ brookings_palettes <- list(
 
   # MISCELLANEOUS
   # A pleasing option using Brookings Blue and accent yellow
-  misc = brookings_cols("brookings blue", "teal_40", "yellow_50")
+  misc = brookings_cols("brookings blue", "teal_40", "yellow_50"),
+
+  brookings1 = brookings_cols("brookings blue", "orange_40", "vivid_blue_20", "grey_10", "yellow_50"),
+
+  THP_categorical1 = brookings_cols("THP_dkgreen", "THP_purple", "THP_green", "THP_ltblue", "THP_yellow", "THP_dkblue","THP_orange"),
+
+  THP_categorical2 = brookings_cols("THP_dkblue", "THP_green", "THP_ltblue", "THP_yellow", "THP_purple", "THP_orange"),
+
+
+  THP_continuous_purple = brookings_cols("extra_ltpurple", "THP_purple")
 
 )
 
