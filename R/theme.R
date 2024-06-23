@@ -178,12 +178,12 @@ theme_brookings <- function(base_size = 14,
       hjust = 0,
       vjust = 1,
       color = "#666666"
-    ),
-    plot.tag.position = c(0, 1),
-    plot.margin = margin(half_line, half_line, half_line * 2, half_line),
+    #),
+    #plot.tag.position = c(0, 1),
+    #plot.margin = margin(half_line, half_line, half_line * 2, half_line),
     # plot.margin = unit(c(0.5, 0.5, 2.5, 0.5), "lines"),
 
-    complete = FALSE
+    #complete = FALSE
   )
 
 
